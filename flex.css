@@ -1,0 +1,31 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 1000px;
+    background-color: aquamarine;
+    
+}   
+.flex-item{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+#c1{
+    background-color: red;
+}
+#c2{
+    background-color: green;
+}
+#c3{
+    background-color: blue;
+}
+#c4{
+    background-color: yellow;
+}
