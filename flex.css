@@ -5,6 +5,7 @@
     align-items: top;
     gap: 20px; ;
     background-color: aqua;
+    background-image: url(https://i.pinimg.com/1200x/d1/06/6b/d1066b798709a54e67faa077cf7c9356.jpg);
   
 } 
 .flex-container2{
@@ -12,8 +13,11 @@
     flex-direction: row;
     justify-content: center;
     background-color: antiquewhite;
-    height: 700px;
+    height: 1000px;
     width: 1000;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-image: url(https://i.pinimg.com/1200x/40/78/05/40780553d717ea8462fa674a5c29870b.jpg);
 
 
 
@@ -33,8 +37,8 @@
 
 }
 .flex-item2{
-    height: 100px;
-    width: 100px;
+    height: 400px;
+    width: 300px;
 
     display: flex;
     flex-direction: row-reverse;
@@ -51,6 +55,11 @@ h4{
 h3{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+P{
+    text-align: center;
+    font-style: normal;
+    
 }
 
 #c1{
@@ -83,38 +92,62 @@ h3{
 }
 #c5{
     background-color: lightskyblue;
+    background-image: url(https://i.pinimg.com/736x/81/66/68/8166682dea39f35da7589865fc79cb37.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 #c6{
     background-color: aqua;
+    background-image: url(https://i.pinimg.com/1200x/c1/76/c9/c176c996fc0c243f139c02af7d7ea67d.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 #c7{
     background-color: beige;
+    background-image: url(https://i.pinimg.com/736x/e1/5d/3f/e15d3f29f2955d1ad6e04aee2664c799.jpg);
+    background-size: cover;
+    background-position: center;
 }
 #c8{
     background-color: azure;
+    background-image: url(https://i.pinimg.com/1200x/82/71/f6/8271f6038c1adb5d24d6f4af2983451b.jpg);
+    background-size: cover;
+    background-position: center;
 }
 #c9{
     background-color: bisque;
+    background-image: url(https://i.pinimg.com/1200x/4f/7c/79/4f7c797278e0905d26383f010320a648.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 #c10{
     background-color: blueviolet;
+    background-image: url(https://i.pinimg.com/736x/0b/45/45/0b4545abba750127e566d165c769d168.jpg);
+    background-size: cover;
+    background-position: center;
 }
 #c11{
     background-color: cadetblue;
+    background-image: url(https://i.pinimg.com/736x/95/cc/a1/95cca19fd1121d9998babefcddba1a8e.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 #c12{
     background-color: burlywood;
+    background-image: url(https://i.pinimg.com/1200x/75/7f/d1/757fd1ef19cf0ae1fae209a3cc8bd0fa.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .flex-container.div{
    background-size: cover; 
    background-position: center;
 
 }
-.flex-container2.div{
+.flex-container2 div{
     background-size: cover;
     background-position: center;
 
