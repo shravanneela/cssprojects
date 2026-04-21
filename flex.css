@@ -2,30 +2,120 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    height: 1000px;
-    width: 1000px;
-    background-color: aquamarine;
-    
-}   
+    align-items: top;
+    gap: 20px; ;
+    background-color: aqua;
+  
+} 
+.flex-container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 700px;
+    width: 1000;
+
+
+
+} 
+
+
 .flex-item{
     height: 100px;
     width: 100px;
+
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-items: center;
+    align-items: top;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
+.flex-item2{
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: top;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+h4{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #c1{
     background-color: red;
+   background-image: url(areo.jpeg); 
+   background-size: cover;
+   background-position: center;
+
+
+
 }
 #c2{
     background-color: green;
+    background-image: url(train.jpeg);
+    background-size: cover; 
+    background-position: center;
 }
 #c3{
     background-color: blue;
+    background-image: url(ship.jpeg);
+    background-size: cover; 
+    background-position: center;
+
 }
 #c4{
     background-color: yellow;
+    background-image: url(road.jpeg);
+    background-size: cover; 
+    background-position: center;
+}
+#c5{
+    background-color: lightskyblue;
+
+}
+#c6{
+    background-color: aqua;
+
+}
+#c7{
+    background-color: beige;
+}
+#c8{
+    background-color: azure;
+}
+#c9{
+    background-color: bisque;
+
+}
+#c10{
+    background-color: blueviolet;
+}
+#c11{
+    background-color: cadetblue;
+
+}
+#c12{
+    background-color: burlywood;
+}
+.flex-container.div{
+   background-size: cover; 
+   background-position: center;
+
+}
+.flex-container2.div{
+    background-size: cover;
+    background-position: center;
+
 }
